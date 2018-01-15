@@ -1,0 +1,324 @@
+
+/* Larger Laptops and Screens */
+@media (max-width: 1360px) {
+    .container {
+        max-width: 1260px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+/* Laptop */
+@media (max-width: 1200px) {
+    .container {
+        max-width: 1100px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+/* Medium Desktops */
+@media (max-width: 1100px) {
+    .container {
+        max-width: 1000px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .news-post-head h4{
+        font-size: 36px;
+        line-height: 43px;
+    }
+}
+/* Small Desktops */
+@media (max-width: 1024px) {
+    .container {
+        max-width: 924px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+
+/* Other Larger Mobile Devices */
+@media (max-width: 992px) {
+    .container {
+        max-width: 832px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    .text-left, .text-right, .mastfoot, .credits, .services-item {
+        text-align: center;
+    }
+    .img-responsive {
+        display: inline-block;
+    }
+	.works-masonry-container .works-item-one-third,
+	.works-masonry-container .works-item-two-third,
+	.works-masonry-container .works-item-one-half,
+	.works-masonry-container .works-item-one-fourth,
+	.works-masonry-container .works-item-full-width,
+	.works-masonry-container .works-item-one-third-spaced,
+	.works-masonry-container .works-item-one-half-spaced,
+	.works-masonry-container .works-item-two-third-spaced,
+	.works-masonry-container .works-item-one-fourth-spaced, 
+    .journal-masonry-container .journal-item-one-half{
+	  margin: 0% !important;
+	  padding: 0 !important;
+	  width: 50% !important;
+	}
+	.works-item-inner {
+	    padding: 0 40px;
+	    text-align: left;
+	}
+	.cd-panel-container{
+		width: 100% !important;
+	}
+
+    .menu-panel nav > ul:hover{
+            -webkit-transform: scale(0.8); 
+            -moz-transform: scale(0.8); 
+             -ms-transform: scale(0.8); 
+            -o-transform: scale(0.8); 
+            transform: scale(0.8); 
+            -webkit-transition: all .4s ease-in-out;
+               -moz-transition: all .4s ease-in-out;
+                -ms-transition: all .4s ease-in-out;
+                 -o-transition: all .4s ease-in-out;
+                    transition: all .4s ease-in-out;
+    }
+    header.masthead .text-left{
+        text-align: left;
+    }
+    header.masthead .text-right{
+        text-align: right;
+    }
+    .footlinks{
+        max-width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .menu-panel ul li a{    
+        font-size: 2.2rem;
+    }
+    header.masthead{
+        background-color: rgba(255,255,255,0.7);
+        padding: 30px 0;
+    }
+    .features-inner{
+        text-align: center;
+    }
+
+}
+
+/* Larger than tablet */
+@media (max-width: 800px) {
+    .container {
+        width: 700px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+
+}
+/* Tablets */
+@media (max-width: 768px) {
+    .container {
+        width: 668px;
+        padding-left: 50px;
+        padding-right: 50px;
+        text-align: center;
+    }
+    .works-item-inner {
+        padding: 0 40px;
+        text-align: left;
+    }
+    .menu-trigger p{
+        display: none;
+    }
+    .welcome-text h1, .elements-counter .number, .news-post h1{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .agency-home-caption, .welcome-text h2, .news-post h2, .photography-intro-caption > span{
+        font-size: 20px !important;
+        line-height: 27px !important;
+    }
+    .featured-work-caption, .featured-work-caption span, 
+    .personal-intro-caption, .personal-intro-caption span, .works-item-inner h3 > span,
+    .photography-intro-caption, .fullscreen-intro-caption > span, .fullscreen-intro-caption, 
+    .footcaps h4, .photography-intro-caption, .main-heading, .features-inner h3, .service-icon h4,
+    .team-members h3{
+        font-size: 16px !important;
+        line-height: 23px !important;
+    } 
+    .journal-item-inner h3 > span{
+        font-size: 18px !important;
+        line-height: 25px !important;
+        letter-spacing: 0px !important;
+    }
+    .personal-intro-caption i{
+        display: none;
+    }
+    .works-item-inner{
+        padding-top: 50px !important;
+    }
+    .photography-intro-caption > span::after{
+        margin-top: 10px;
+    }
+    .features-inner{
+        padding: 50px 30px;
+    }
+    .service-icon-inner{
+        padding: 40px 20px;
+    }
+    .liner-small{
+        display: inline-block;
+    }
+    .service-icon i{
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .journal-item-inner{
+        padding: 20px;
+    }
+    .tp-caption{
+        margin-left: 30px;
+    }
+}
+
+/*iPhone 6Plus Landscape Mode*/
+@media screen and (max-width: 736px) {
+    .container {
+        width: 636px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+
+/*iPhone 6 Landscape Mode*/
+@media screen and (max-width: 667px) {
+    .container {
+        width: 567px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+
+/*Google Nexus and Other Large Smart Phones*/
+@media screen and (max-width: 600px) {
+    .container {
+        width: 500px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .menu-panel ul li a{    
+        font-size: 1.8rem;
+    }
+
+}
+
+/*iPhone Landscape Mode and Mediium Smart Phones*/
+@media screen and (max-width: 480px) {
+    .container {
+        width: 400px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+	.works-masonry-container .works-item-one-third,
+	.works-masonry-container .works-item-two-third,
+	.works-masonry-container .works-item-one-half,
+	.works-masonry-container .works-item-one-fourth,
+	.works-masonry-container .works-item-full-width,
+	.works-masonry-container .works-item-one-third-spaced,
+	.works-masonry-container .works-item-one-half-spaced,
+	.works-masonry-container .works-item-two-third-spaced,
+	.works-masonry-container .works-item-one-fourth-spaced,
+    .journal-masonry-container .journal-item-one-half{
+	  margin: 0% !important;
+	  padding: 0 !important;
+	  width: 100% !important;
+	}
+	.works-item-inner {
+	    padding: 0 40px;
+	    text-align: left;
+	}
+    .menu-trigger p{
+    	display: none;
+    }
+    .welcome-text h1, .elements-counter .number, .news-post h1{
+        font-size: 24px !important;
+        line-height: 31px !important;
+    }
+    .agency-home-caption, .welcome-text h2, .news-post h2, .photography-intro-caption > span{
+        font-size: 20px !important;
+        line-height: 27px !important;
+    }
+    .featured-work-caption, .featured-work-caption span, 
+    .personal-intro-caption, .personal-intro-caption span, .works-item-inner h3 > span,
+    .photography-intro-caption, .fullscreen-intro-caption > span, .fullscreen-intro-caption, 
+    .footcaps h4, .photography-intro-caption, .main-heading, .features-inner h3, .service-icon h4,
+    .team-members h3{
+        font-size: 14px !important;
+        line-height: 24px !important;
+    } 
+    .journal-item-inner h3 > span{
+        font-size: 14px !important;
+        line-height: 21px !important;
+        letter-spacing: 0px !important;
+    }
+    .personal-intro-caption i{
+        display: none;
+    }
+    .works-item-inner{
+        padding-top: 50px !important;
+    }
+    .photography-intro-caption > span::after{
+        margin-top: 10px;
+    }
+    .features-inner{
+        padding: 80px 30px;
+    }
+    .service-icon-inner{
+        padding: 40px 20px;
+    }
+    .liner-small{
+        display: inline-block;
+    }
+    .service-icon i{
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .journal-item-inner{
+        padding: 20px;
+    }
+    .tp-caption{
+        margin-left: 30px;
+    }
+}
+
+/*iPhone 6Plus Portrait Mode*/
+@media screen and (max-width: 414px) {
+    .container {
+        width: 374px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/*iPhone 6 Portrait Mode*/
+@media screen and (max-width: 375px) {
+    .container {
+        width: 335px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/*iPhone 5S, 5, 4S & 4 Portrait Mode and Very Small Mobile Phones*/
+@media screen and (max-width: 320px) {
+    .container {
+        width: 280px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

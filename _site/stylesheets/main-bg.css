@@ -1,0 +1,55 @@
+/* MAIN-BG.CSS contains Background Image paths & definition rules powered by CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to replace any BG image is to add image URL in url('....') area of related classname.
+If you need assistance, please go to http://www.hagendigital.com/downloads.html and request a downloadable 
+ZIP pack contains original live preview version with all preview images linked properly, so you can easily 
+replace preview images directly;
+*/
+
+
+.menu-panel .cd-panel-content{
+    background-image: url('../images/menu.jpg');
+}
+.intro-02-bg{
+    background-image: url('../images/bg/07.jpg');
+}
+.about-bg{
+    background-image: url('../images/bg/01.jpg');
+}
+.post-bg{
+    background-image: url('../images/post/header.jpg');
+}
+.team-bg{
+    background-image: url('../images/bg/03.jpg');
+}
+.news-bg{
+    background-image: url('../images/bg/01.jpg');
+}
+.works-bg{
+    background-image: url('../images/bg/05.jpg');
+}
+.call-to-action-bg{
+    background-image: url('../images/bg/03.jpg');
+}
+.features-01-bg{
+    background-image: url('../images/studio/01.jpg');
+}
+.features-02-bg{
+    background-image: url('../images/studio/02.jpg');
+}
+.features-03-bg{
+    background-image: url('../images/studio/03.jpg');
+}
+.features-04-bg{
+    background-image: url('../images/studio/04.jpg');
+}
+.contact-01-bg{
+    background-image: url('../images/contact/01.jpg');
+}
+.contact-02-bg{
+    background-image: url('../images/contact/02.jpg');
+}
+.footcaps-bg{
+    background-image: url('../images/bg/04.jpg');
+}
